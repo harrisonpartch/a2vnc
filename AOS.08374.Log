@@ -27,3 +27,6 @@ WMTextView: Command execution error, res: 3401 (VNCTuringServer.Obj not found)
 {P cpuid= 0, pid= 78 20.Sep.2012 17:13:12 IP: 127.0.0.1:42241 started}
 {P cpuid= 0, pid= 94 20.Sep.2012 17:15:02 IP: 127.0.0.1:42242 started}
 {P cpuid= 0, pid= 94 20.Sep.2012 17:15:56 IP: 127.0.0.1:42242 Score: 13}
+{P cpuid= 0, pid= 101 20.Sep.2012 18:34:27 IP: 127.0.0.1:43878 started}
+{P cpuid= 0, pid= 117 20.Sep.2012 18:35:01 IP: 127.0.0.1:43880 started}
+{P cpuid= 0, pid= 132 20.Sep.2012 18:35:47 IP: 127.0.0.1:43884 started}
