@@ -1,0 +1,29 @@
+Kernel: Initialized and started.
+X11 Display depth = 24
+Default font installedOpenType 0.45 BBPort /3.12.2004  eos, pl
+WindowManager: 24-bit color
+WindowManager: Display resolution: 1424x992x24
+DisplayRefresher installed.
+Autostart: executing FSTools.Mount Work RelativeFileSystem ./
+Work: mounted
+Autostart: executing FileTrapWriter.Install
+Autostart: executing WMTrapWriter.Install
+{P cpuid= 0, pid= 31 Events: System event log started.}
+WMMacros: Macro file Macros.XML loaded.
+Autostart: executing UpTime.Install
+Uptime monitor started.
+Autostart: executing StartMenu.Open
+Autostart: executing SkinEngine.Unload
+ZeroSkin already loaded
+Autostart: executing WMRestorable.Load Auto.dsk
+{P cpuid= 0, pid= 43 Starting logger}
+WMRestorable: Loading desktop from Auto.dsk...
+Autostart: executing WMNavigate.Open -vs 1 0 0 Navigation:TaskList
+Autostart: executing SystemTools.CollectGarbage
+Collecting garbage... done.
+SyntaxHighlighter: Auto-loading SyntaxHighlighter.XML ... done.
+WMTextView: Command execution error, res: 3401 (VNCTuringServer.Obj not found)
+WMTextView: Command execution error, res: 3401 (VNCTuringServer.Obj not found)
+{P cpuid= 0, pid= 78 20.Sep.2012 17:13:12 IP: 127.0.0.1:42241 started}
+{P cpuid= 0, pid= 94 20.Sep.2012 17:15:02 IP: 127.0.0.1:42242 started}
+{P cpuid= 0, pid= 94 20.Sep.2012 17:15:56 IP: 127.0.0.1:42242 Score: 13}
