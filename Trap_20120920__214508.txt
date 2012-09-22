@@ -1,0 +1,47 @@
+File Trap_20120920__214508.txt
+---------------------------
+
+LinuxAos (rev.4899)
+
+Trap   11 (Segmentation violation)
+SP = 00000000H, FP = EEFD8164H, PC = F208D9DFH
+
+DNS.HostByNumber:215 pc=727 [000002D7H] = 512 + 215 crc=6A66E295
+  addr=Rec@00000008H
+  hostname=""...
+  res=0
+  hostent=F75F2D84H (NIL)
+  namePtr=1633906540 (61636F6CH)
+  ch=00X
+  i=0
+State DNS:
+  domain=""...
+  nlib=148474200 (08D98958H)
+  gethostbyaddr=Unknown PC=F7590F90H
+  gethostbyname=Unknown PC=F7591490H
+  gethostname=Unknown PC=F7573910H
+  NDNSReceived=0
+  NDNSSent=0
+  NDNSMismatchID=0
+  NDNSError=0
+VNC.PrintConnection:332 pc=11053 [00002B2DH] = 10721 + 332 crc=3957EF94
+  c=EF2DCD40H (VNC.Connection)
+  out=F13938A0H (PET.TextWriter)
+  res=0
+  name=""...
+VNC.ConnectionPool.Enumerate:36 pc=464 [000001D0H] = 428 + 36 crc=3957EF94
+  p=VNC.PrintConnection:0 pc=10721 [000029E1H] = 10721 + 0 crc=3957EF94
+  out=F13938A0H (PET.TextWriter)
+  c=EF2DCD40H (VNC.Connection)
+VNC.Show:92 pc=11210 [00002BCAH] = 11118 + 92 crc=3957EF94
+  context=F024EA30H (Commands.Context)
+Commands.Runner.@Body:584 pc=2040 [000007F8H] = 1456 + 584 crc=68BAE6F9
+Objects.Lock:3265 pc=3318 [00000CF6H] = 53 + 3265 crc=6411CA5A
+  obj=00000000H (NIL)
+  exclusive=112
+  hdr=F07B3330H (Objects.Process)
+  p=00000000H (NIL)
+
+
+----------------------------------------------------
+

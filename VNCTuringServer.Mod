@@ -131,9 +131,9 @@ TYPE
 					Raster.Fill(img, ix, jy, ix+SIZE, jy+SIZE, pix, mode)
 				END
 			END;
-			Raster.SetRGB(pix, 100,100,100);
-			Raster.Fill(img, 0,0,W,H,pix, mode);
-			AddDirty(0, 0, W,H)
+			Raster.SetRGB(pix, 255,255,0);
+			Raster.Fill(img, 0,0,100,100,pix, mode);
+			AddDirty(0, 0, 100,100)
 		END Draw;	
 
 		PROCEDURE KeyPressed(ucs : LONGINT; flags: SET; keysym: LONGINT);
@@ -160,7 +160,6 @@ TYPE
 		KernelLog.String(" started");
 		KernelLog.Exit;
 		alive:=TRUE;
-		seed;
 		Draw;
 		WHILE alive DO
 			timer.Sleep(1000); 

@@ -1,0 +1,33 @@
+File Trap_20120920__214531.txt
+---------------------------
+
+LinuxAos (rev.4899)
+
+Trap   5.-146330854  (unknown trap, division error?)
+SP = EE93F1F0H, FP = EE93F204H, PC = F2D41DB4H
+
+VNC?.Window.PointerMove:1 pc=844 [0000034CH] = 843 + 1 crc=3957EF94
+  x=0
+  y=-146439376
+  keys={12, 14..19, 21, 24..27, 29..31}
+State VNC?:
+  pool=00000000H (NIL)
+  bell=00000000H (NIL)
+WMWindowManager.BufferWindow.Handle:373 pc=5833 [000016C9H] = 5460 + 373 crc=1A092135
+  m=Rec@00000008H
+  w=500 (000001F4H)
+  h=500 (000001F4H)
+  fx=  0.000000E+000
+  fy=  0.000000E+000
+WMMessages.MsgSequencer.Handle:230 pc=2125 [0000084DH] = 1895 + 230 crc=C6CCA628
+  msg=Rec@00000004H
+WMMessages.MsgSequencer.@Body:294 pc=3224 [00000C98H] = 2930 + 294 crc=C6CCA628
+Objects.Lock:3265 pc=3318 [00000CF6H] = 53 + 3265 crc=6411CA5A
+  obj=00000000H (NIL)
+  exclusive=112
+  hdr=F0254770H (Objects.Process)
+  p=00000000H (NIL)
+
+
+----------------------------------------------------
+

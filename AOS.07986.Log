@@ -22,19 +22,4 @@ Autostart: executing WMNavigate.Open -vs 1 0 0 Navigation:TaskList
 Autostart: executing SystemTools.CollectGarbage
 Collecting garbage... done.
 SyntaxHighlighter: Auto-loading SyntaxHighlighter.XML ... done.
-WMTextView: Command execution error, res: 3401 (VNCTuringServer.Obj not found)
-WMTextView: Command execution error, res: 3401 (VNCTuringServer.Obj not found)
-{P cpuid= 0, pid= 78 20.Sep.2012 17:13:12 IP: 127.0.0.1:42241 started}
-{P cpuid= 0, pid= 94 20.Sep.2012 17:15:02 IP: 127.0.0.1:42242 started}
-{P cpuid= 0, pid= 94 20.Sep.2012 17:15:56 IP: 127.0.0.1:42242 Score: 13}
-{P cpuid= 0, pid= 101 20.Sep.2012 18:34:27 IP: 127.0.0.1:43878 started}
-{P cpuid= 0, pid= 117 20.Sep.2012 18:35:01 IP: 127.0.0.1:43880 started}
-{P cpuid= 0, pid= 132 20.Sep.2012 18:35:47 IP: 127.0.0.1:43884 started}
-{P cpuid= 0, pid= 154 20.Sep.2012 21:44:51 IP: 127.0.0.1:46231 started}
-WMMessages: [TRAP]
-Cleanup
-{P cpuid= 0, pid= 169 Events: System event log shut down.}
-WindowManager: Window manager closed
-{P cpuid= 0, pid= 169 Files: 8 open files}
-Objects 6319 discarded finalizers, 0 pending finalizers
-UnixFiles 8 discarded finalizers, 0 pending finalizers
+WMTextView: Command parsing error, res: 3903 (Expected ModuleName "." [ProcedureName])
